@@ -17,7 +17,7 @@ public class BinarySearch
 				bottom = middle + 1;
 			else if(item < ray[middle])
 				top = middle - 1;
-			else if(ray[middle] == item)
+			else if(ray[middle] == item) //this part is not necessary it can just be and else
 				return middle;
 
 			middle = (top + bottom) / 2;
